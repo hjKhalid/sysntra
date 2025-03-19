@@ -1,13 +1,50 @@
 # React + Vite
+# Interactive Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a **responsive interactive dashboard** built using **React.js, Redux, Tailwind CSS, and Recharts**. It features a collapsible sidebar, various data visualizations, a weather widget, and a dark mode toggle.
 
-Currently, two official plugins are available:
+## Features
+- **Collapsible Sidebar**: Expands/collapses with a button.
+- **Charts & Data Visualization**: Bar, Pie, and Line charts implemented using Recharts.
+- **Weather Widget**: Fetches real-time weather data using the OpenWeatherMap API.
+- **Dark Mode Toggle**: Allows users to switch between light and dark themes.
+- **Recent Activity Section**: Displays dummy logs in a tabular format.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React.js** - Frontend framework
+- **Redux Toolkit** - State management
+- **Tailwind CSS** - Styling
+- **Recharts** - Charting library
+- **OpenWeatherMap API** - Fetches weather data
 
-## Expanding the ESLint configuration
+## Installation & Setup
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/interactive-dashboard.git
+   cd interactive-dashboard
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# sysntra
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+
+3. **Set up OpenWeatherMap API key**:
+   - Get your API key from [OpenWeatherMap](https://openweathermap.org/api)
+   - Replace `YOUR_API_KEY` in `Dashboard.js` with your actual API key.
+
+4. **run server**:
+npm run dev
+
+
+## Live Demo & Repository Links
+- **Live App**: [Deployed Link](https://sysntra-hjkhalids-projects.vercel.app/)
+- **GitHub Repo**: [Repository Link](https://github.com/hjKhalid/sysntra)
+
+## License
+This project is licensed under the MIT License.
+
+---
+### Happy Coding! 🚀
+
